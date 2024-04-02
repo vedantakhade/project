@@ -21,7 +21,7 @@ MMS_SAVE_PATH = os.path.join(os.getcwd(),'saved_path', 'mms_scaler.pkl')
 MODEL_PATH = os.path.join(os.getcwd(), "saved_path", "model.pkl")
 
 # Data Loading
-with open(MMS_SAVE_PATH, 'rb') as f:
+with open(mms_scaler.pkl, 'rb') as f:
     mms_scaler = pickle.load(f)
     
 # Model
